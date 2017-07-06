@@ -2,7 +2,7 @@
 
 A python implementation of Thai word segmentation
 #usage : 
-python ppwordseg_lite.py [inputfile] [outputfile]
+python ppwordseg_beam.py [inputfile] [outputfile]
 
 Dependency
 - KenLM
