@@ -1,0 +1,70 @@
+# 2 units rules 
+con,ton
+con,vo3
+con,vo1
+vo2,con
+con,vo4
+con,็
+con,์
+# 3 units rules
+con,ton,vo1
+vo2,con,ton
+con,vo3,con
+#ต้องยกเว้น อึ
+con,vo4,ton
+เ,con,ะ
+เ,con,า
+แ,con,ะ
+โ,con,ะ
+con,ิ,์
+con,ุ,์
+# 4 units rules
+con,vo3,ton,con
+เ,con,vo4,ย
+เ,con,ี,ย
+เ,con,ื,อ
+เ,con,ton,ะ
+เ,con,ton,า
+เ,con,า,ะ
+เ,con,็,con
+แ,con,็,con
+แ,con,con,์
+แ,con,ton,ะ
+โ,con,ton,ะ
+con,ั,con,ุ
+con,ั,con,ิ
+con,vo3,ว,ะ
+เ,con,ิ,con
+# 5 units rules
+เ,con,vo4,ton,ย
+เ,con,ิ,ton,con
+เ,con,ี,ton,ย
+เ,con,ี,ย,ะ
+เ,con,ื,ton,อ
+เ,con,ton,า,ะ
+con,ั,ton,con,ะ
+เ,con,con,า,ะ
+เ,con,con,ี,ย
+เ,con,con,อ,ะ
+เ,con,con,็,con
+แ,con,con,็,con
+แ,con,con,con,์
+เ,con,ื,อ,ะ
+# 6 units rules
+เ,con,ี,ton,ย,ะ
+เ,con,con,ี,ton,ย
+เ,con,ื,ton,อ,ะ
+เ,con,ิ,con,์,con
+เ,con,con,ton,า,ะ
+เ,con,con,ี,ย,ะ
+# 7 units rules
+เ,con,con,ี,ton,ย,ะ
+#sepecial case
+อ,ึ
+ร,ึ
+ฤ,า
+ฤ,ๅ
+ฦ,ๅ
+ฦ,า
+ฯ,ล,ฯ
+ฯ,พ,ณ,ฯ
