@@ -113,7 +113,7 @@ model = Thai_WordSegmenter("wordlist.sort","best2010.txt.lm")
 
 def process_segment(textStr):
 	global model
-	return model.segment(textStr.strip())[0]
+	return model.segment(textStr.strip())[0].replace("|"," ").strip()
 
 
 if __name__ == "__main__":
