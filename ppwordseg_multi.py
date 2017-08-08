@@ -117,12 +117,16 @@ def process_segment(textStr):
 
 
 if __name__ == "__main__":
-	fp = open(sys.argv[1],"r")
-	fo = open(sys.argv[2],"w")
+	if len(sys.argv) < 3:
+		print "Usage : python ppwordseg_multi.py [thread_num] [input] [output]"
+		exit()
+
+	fp = open(sys.argv[2],"r")
+	fo = open(sys.argv[3],"w")
 	
 	line = fp.readlines()
 
-	p = Pool(20)
+	p = Pool(int(sys.argv[1]))
 	out = p.map(process_segment, line)
 
 	for x in out:
